@@ -1,0 +1,12 @@
+.imgCarrito {
+    width: 4rem;
+}
+
+strong {
+    border-radius: 50%;
+    background-color: #fafafa;
+    color:cornflowerblue ;
+    padding: 0.5rem 0.8rem;
+    margin: 0;
+}
+

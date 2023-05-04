@@ -1,0 +1,21 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid cornflowerblue;
+    color: #fafafa;
+    background-color: deepskyblue;
+    font-weight: bold;
+    padding: 0 2rem;
+}
+
+h1 {
+    font-size: 3rem;
+    margin: 0;
+}
+li {
+    display: inline-block;
+    margin: 1rem;
+    cursor: pointer;
+    font-size: 1.5rem;
+}
