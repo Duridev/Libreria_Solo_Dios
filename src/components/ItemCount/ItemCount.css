@@ -1,0 +1,25 @@
+.contenedor-contador {
+    display: flex;
+    border: 2px solid deepskyblue;
+    border-radius: 5px;
+    padding: 0;
+    height: 2rem;
+    align-self: stretch;
+    justify-content: space-between;
+    align-items: center;
+    width: 6.5rem;
+}
+
+.btn-contador {
+    background-color: deepskyblue;
+    width: 2rem;
+    border: 0;
+    height: 100%;
+    color: #fafafa;
+    font-size: 1.2rem;
+    font-weight: bold
+}
+
+.contador {
+    font-weight: bold;
+}

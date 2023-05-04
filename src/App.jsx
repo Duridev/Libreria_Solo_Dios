@@ -3,12 +3,14 @@ import './App.css';
 import ContenedorProducto from './components/ContenedorProductos/ContenedorProducto';
 import NavBar from './components/NavBar/NavBar';
 import ItemListContainer from './components/ItemListContainer/ItemListContainer';
+import ItemCount from './components/ItemCount/ItemCount';
 
 function App() {
   return (
     <>
       <NavBar />
       <ItemListContainer greeting="Hay libros que parecen casi vivos por su poder para transmitir, no sólo ideas, sino un nuevo estado de conciencia."/>
+      <ItemCount />
       <ContenedorProducto />
     </>
   );
