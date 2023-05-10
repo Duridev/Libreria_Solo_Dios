@@ -10,10 +10,9 @@ function App() {
   return (
     <>
       <NavBar />
-      <Vista />
       <ItemListContainer greeting="Hay libros que parecen casi vivos por su poder para transmitir, no sólo ideas, sino un nuevo estado de conciencia."/>
-      <ItemCount />
-      <ContenedorProducto />
+      {/* <ItemCount />
+      <ContenedorProducto /> */}
     </>
   );
 }

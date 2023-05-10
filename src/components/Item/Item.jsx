@@ -1,18 +1,18 @@
-import React from 'react'
+import './Item.css'
 
-const Producto = ({id, img, nombre,autor,editorial,precio,paginas}) => {
+const Item = ({img, id, nombre,autor,editorial,precio,paginas}) => {
     return (
-        <div>
+        <div className='cardProducto'>
             <img className='imgProducto' src={img} alt={nombre}/>
-            <p>Nombre: {nombre}</p>
+            <h3>Nombre: {nombre}</h3>
             <p>Id: {id}</p>
             <p>Autor: {autor}</p>
             <p>Editorial: {editorial}</p>
             <p>Precio: {precio}</p>
             <p>Páginas: {paginas}</p>
-            <button>Agregar al Carrito</button>
+            <button className='btnProducto'>Ver Detalle</button>
         </div>
     )
 }
 
-export default Producto
+export default Item
