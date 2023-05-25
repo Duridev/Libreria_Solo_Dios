@@ -4,8 +4,8 @@ const productos = [
     {id: "3", img: "../img/el-nuevo-sendero.jpg", nombre: "El Nuevo Sendero", autor: "Swami Kriyananda", editorial: "Ananda Ediciones", precio: 20000, paginas: 626, idCat:"2"},
     {id: "4", img: "../img/solodios.jpg", nombre: "Sólo Dios", autor: "Self-Realization Fellowship", editorial: "Self-Realization Fellowship", precio: 13000, paginas: 341, idCat:"3"},
     {id: "5", img: "../img/raja-yoga-el-manual-completo-de-yoga-y-meditacion.jpg", nombre: "Raya Yoga", autor: "Swami Kriyananda", editorial: "Ananda Ediciones", precio: 25000, paginas: 442, idCat:"2"},
-    {id: "6", img: "../img/elvinomistico.jpg", nombre: "El vino del místico", autor: "Paramhansa Yogananda", editorial: "Self-Realization Fellowship", precio: 20000, paginas: 280, idCat:"1"},
-    {id: "7", img: "../img/dosranas.jpg", nombre: "Dos Ranas en Apuros", autor: "Paramhansa Yogananda", editorial: "Self-Realization Fellowship", precio: 26000, paginas: 26, idCat:"1"},
+    {id: "6", img: "../img/elvinomistico.jpg", nombre: "El vino del místico", autor: "Paramahansa Yogananda", editorial: "Self-Realization Fellowship", precio: 20000, paginas: 280, idCat:"1"},
+    {id: "7", img: "../img/dosranas.jpg", nombre: "Dos Ranas en Apuros", autor: "Paramahansa Yogananda", editorial: "Self-Realization Fellowship", precio: 26000, paginas: 26, idCat:"1"},
     {id: "8", img: "../img/rajarsi.jpg", nombre: "Rajarsi Janakananda", autor: "Self-Realization Fellowship", editorial: "Self-Realization Fellowship", precio: 12000, paginas: 304, idCat:"3"},
 ];
 
