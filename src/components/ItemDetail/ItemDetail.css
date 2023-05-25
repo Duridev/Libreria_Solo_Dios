@@ -1,5 +1,12 @@
 .contenedorItem {
     text-align: center;
-    border: 1px solid blue;
-    margin: 3rem;
+    background: linear-gradient(45deg, #6DD5FA, #fafafa, #6DD5FA);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    margin: 3rem 30%;
+    padding: 3rem;
+    border-radius: 20px;
+}
+
+.imgProducto {
+    box-shadow: 3px 3px 9px rgba(0, 0, 0, 0.7);
 }
