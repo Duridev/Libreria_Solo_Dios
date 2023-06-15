@@ -8,7 +8,7 @@ export const CarritoContext = createContext({
 
 export const CarritoProvider = ({children}) => {
     const [carrito, setCarrito] = useState([]);
-    const [total, setTotal] = useState([0]);
+    const [total, setTotal] = useState(0);
     const [cantidadTotal, setCantidadTotal] = useState(0);
 
     const agregarProducto = (item, cantidad) => {
@@ -36,7 +36,7 @@ export const CarritoProvider = ({children}) => {
         const productoEliminado = carrito.find(prod => prod.item.id === id)
         setCarrito(carritoActualizado);
         setCantidadTotal(prev => prev - productoEliminado.cantidad);
-        setTotal(prev => prev - (productoEliminado.item.precio * productoEliminado.item.cantidad));
+        setTotal(prev => prev - (productoEliminado.item.precio * productoEliminado.cantidad));
     }
     const vaciarCarrito = () => {
         setCarrito([]);
