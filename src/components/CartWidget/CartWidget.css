@@ -1,5 +1,7 @@
 .imgCarrito {
-    width: 4rem;
+    width: 6rem;
+    filter: drop-shadow(0 0 15px rgba(250, 250, 250, 0.7));
+    margin: 0 0 2.5rem auto;
 }
 
 strong {
@@ -7,6 +9,22 @@ strong {
     background-color: #fafafa;
     color:cornflowerblue ;
     padding: 0.5rem 0.8rem;
-    margin: 0;
 }
 
+0:33:30 *********************************
+
+.contenedor-carrrito span {
+    text-decoration: none;
+    border-radius: 50%;
+    background-color: #fafafa;
+    font-size: 2rem;
+    color:dodgerblue;
+    margin: 6rem auto 0.5rem auto;
+    padding: 0px 10px 0px 10px;
+
+}
+
+.contenedor-carrrito a {
+    display: flex;
+    text-decoration: none;
+}
