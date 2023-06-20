@@ -16,9 +16,9 @@ const Checkout = () => {
     const [emailConfirmacion, setEmailConfirmacion] = useState("");
     const [error, setError] = useState("");
     const [ordenId, setOrdenId] = useState("");
+    const sumaSubtotales = carrito.reduce(
+        (total, producto) => total + producto.item.precio * producto.cantidad, 0);
     
-
-
     const manejadorFormulario = (event) => {
         event.preventDefault()
         if(!nombre || !apellido || !telefono || !email || !emailConfirmacion) {
@@ -73,6 +73,7 @@ const Checkout = () => {
                         
                     </div>
                 ))}
+                <h3>Total: ${sumaSubtotales}</h3>
                 <hr />
 
                 <div className='form-group'>

@@ -1,5 +1,6 @@
 .contenedorProductos {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
 }
